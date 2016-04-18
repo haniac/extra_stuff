@@ -1,8 +1,3 @@
-/**
- * Created by Hanna on 2016-04-18.
- */
-
-
 function VER5_Check() {
 
     var b = navigator.appName;

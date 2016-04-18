@@ -1,38 +1,76 @@
+/**
+ * Created by Hanna on 2016-04-18.
+ */
+
+
 body {
-    background: #c0c0c0;
-    margin:50px 0;
-    padding:0;
+    background-color: #ff0000;
     text-align:center;
+    font-family: "Arial Black";
+}
+header{
+    color: white;
+    background-color: #633c3c;
+    border: 6px solid #633c3c;
+    height: 150px;
+    margin-bottom: 50px;
+}
+header h1 {
+    font-size: 20px;
+    line-height: 50px;
+}
+header p {
+    font-size: 70px;
+    line-height: 100px;
+    font-family: Impact;
 }
 .main {
-    position:relative;
+    margin: auto;
+    position: relative;
     width:600px;
     height:600px;
-    background: #fff;
-    border: 1px solid #000;
     font: 10px verdana, sans-serif;
-    padding: 10px;
     text-align: left;
 }
 .main table {
-    position:relative;
-    border: 1px dotted #000;
-    margin:50px 50px;
+    position: relative;
     width: 100%;
     height: 100%;
-    background: #D8E8F5;
+    color: black;
 }
-.main td {
+.main table tr {
+    vertical-align: inherit ;
+}
+.main table tr td {
     width: 20%;
-    height: 20%;
-    padding: 0;
+    height: 19%;
     text-align: center;
-    font: 14px verdana, sans-serif;
-    border: 1px solid #000;
+    font-size: 14px;
+    color: #a30000;
+    border: 3px solid #000;
+    border-radius: 20px;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: "Arial Black";
+    cursor: pointer;
 }
-#6 {
-    background: #0080c0;
+.main table tr td.egg {
+    height: 30px;
 }
 .main button {
     text-align : center;
+    cursor: pointer;
+    font-size: 14px;
+    color: #a30000;
+    height: inherit;
+    width: 100%;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: white;
+    font-family: "Arial Black";
+    font-size: 14px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
 }
